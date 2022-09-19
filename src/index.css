@@ -1,13 +1,101 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.smallImage {
+  border-radius: 4px;
+  width: 200px;
+  max-height: 100px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-border {
+  background-color: rgb(38, 38, 38);
+  border-radius: 12px;
+  margin: 20px 20px;
+  padding-top: 1px;
+
+  box-shadow: 2px 10px 10px 1px rgba(0, 0, 0, 0.611);
+}
+
+li {
+  list-style: none;
+}
+
+.link {
+  color: white;
+  text-decoration: none !important;
+  font-size: medium;
+}
+
+.header {
+  font-size: x-large;
+}
+
+.invisibleButton {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  margin-left: 10px;
+}
+
+.rounded8 {
+  border-radius: 12px;
+}
+
+ul > li {
+  display: inline-block;
+  /* You can also add some margins here to make it look prettier */
+}
+
+.dayCol {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.day {
+  padding: 10px;
+  background-color: #222;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #51e2f5;
+  height: 60px !important;
+  box-shadow: 0px -16px 40px 2px #000;
+}
+
+.nav .link {
+  border-right: 1px solid white;
+  margin-right: 10px;
+  height: 100%;
+  padding-right: 18px !important;
+}
+
+.nav .link:hover {
+  background-color: white !important;
+  color: black !important;
 }
