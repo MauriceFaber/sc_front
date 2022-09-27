@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  frontTest:
+    image: sc_front:dev
+    ports:
+      - "4000:3000"
